@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0F9314</color>
+    <color name="colorPrimaryDark">#0E0E0E</color>
+    <color name="colorAccent">#0A0E0E</color>
+    <color name="menu_color">#ECE8E8</color>
+    <color name="uro">#727272</color>
+    <color name="product">#f5fffa</color>
+    <color name="shadow">#e0fce6</color>
+    <color name="graycolor">#0098cc</color>
+    <color name="colorDrawer">#fff</color>
+</resources>

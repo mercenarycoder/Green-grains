@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_smile"
+        android:id="@+id/emotion_feedback"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:text="That's great!\nTell us what we got right"
+        android:id="@+id/text_emotion_feedback"/>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="45dp"
+     android:layout_marginTop="15dp"
+     android:gravity="center"
+     android:id="@+id/sady_feed"
+     android:orientation="horizontal"
+     >
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:gravity="center"
+         android:layout_gravity="center"
+         android:textSize="18sp"
+         android:textColor="#000"
+         android:text="Change my answer"
+         android:id="@+id/text_change_feedback"/>
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_gravity="center"
+         android:layout_marginLeft="5dp"
+         android:src="@drawable/ic_sad"
+         android:id="@+id/picchange_feedback"/>
+ </LinearLayout>
+ <TableRow android:layout_height="1dp"
+     android:layout_width="match_parent"
+     android:background="#000"
+     android:layout_marginTop="10dp"
+     android:layout_marginBottom="5dp"
+     android:layout_marginLeft="30dp"
+     android:layout_marginRight="30dp"/>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="40dp"
+     android:orientation="horizontal"
+     android:gravity="center"
+     >
+   <CheckBox
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:text="User Interface                              "
+       android:textSize="18sp"
+       android:layout_marginLeft="15dp"
+       android:id="@+id/check1_feedback"/>
+ </LinearLayout>
+    <TableRow android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#000"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Customer Service                        "
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/check2_feedback"/>
+    </LinearLayout>
+    <TableRow android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#000"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Delivery                                         "
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/check3_feedback"/>
+    </LinearLayout>
+    <TableRow android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#000"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Other                                              "
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/check4_feedback"/>
+    </LinearLayout>
+<EditText
+    android:layout_width="320dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:gravity="top|left"
+    android:fontFamily="@font/montserratalternates_medium"
+    android:hint="Your Feedback"
+    android:maxLines="1"
+    android:id="@+id/text_feedback"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/feedback_text"
+    android:paddingTop="5dp"
+    android:paddingStart="16dp"
+    android:textColor="#000"
+    android:textColorHighlight="#fff"
+    android:textColorHint="#838181"
+/>
+ <Button
+     android:layout_width="300dp"
+     android:layout_height="45dp"
+     android:background="@drawable/cart_button3"
+     android:text="Submit"
+     android:textColor="#fff"
+     android:textSize="20sp"
+     android:layout_marginTop="15dp"
+     android:gravity="center"
+     android:layout_marginBottom="20dp"
+     android:layout_gravity="center"
+     android:id="@+id/submit_feedback"/>
+</LinearLayout>
+</ScrollView>

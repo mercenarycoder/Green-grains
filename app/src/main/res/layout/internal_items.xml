@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:baselineAligned="false"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight=".7"
+    android:id="@+id/medi_name"
+    android:text="Paracetsmol"
+    android:textSize="14sp"
+    android:textColor="#000"
+    android:layout_marginLeft="5dp"
+    android:gravity="center|left"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.3"
+        android:text="2"
+        android:id="@+id/medi_count"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Rs.5000"
+        android:textSize="16sp"
+        android:id="@+id/medi_price"
+        android:textColor="#000"
+        android:layout_marginRight="5dp"
+        android:gravity="center|right"
+        />
+</LinearLayout>

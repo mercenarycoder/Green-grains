@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_gravity="center"
+    android:id="@+id/sup_image"
+    android:src="@drawable/green_and_grains"
+    android:layout_margin="10dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Green And Grains"
+    android:textSize="24sp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textColor="@color/colorPrimaryDark"
+    android:textStyle="bold"
+    android:id="@+id/support_name"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:orientation="horizontal"
+    android:layout_marginLeft="25dp"
+    >
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="match_parent"
+     android:src="@drawable/ic_phone"
+     android:layout_marginRight="20dp"
+     android:layout_gravity="center|right"
+     android:tint="@color/colorPrimary"
+     />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="match_parent"
+     android:textSize="16sp"
+     android:id="@+id/support_phone"
+     android:text=""
+     android:gravity="center|left"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_mail"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:tint="@color/colorPrimary"
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:id="@+id/support_email"
+            android:text=""
+            android:gravity="center|left"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/world"
+            android:tint="@color/colorPrimary" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:id="@+id/support_city"
+            android:text=""
+            android:gravity="center|left"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/open_watsapp"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginRight="20dp"
+            android:tint="@color/colorPrimary"
+            android:src="@drawable/ic_whatsapp_2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:text="Contact Us On Watsapp"
+            android:gravity="center|left"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

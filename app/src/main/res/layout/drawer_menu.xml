@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="280dp"
+    android:background="#fff"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="0dp"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/colorPrimary"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        >
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="124dp"
+        android:gravity="center|left"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="center"
+        android:layout_height="123dp"
+        android:src="@drawable/user_55"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#0C000000"/>
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimary"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Welcome"
+        android:layout_marginStart="0dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/colorPrimary"/>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:layout_marginBottom="4dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/my_dashboard"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/meso1"
+        android:orientation="horizontal">
+<!--        <ImageView-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:id="@+id/dashboard_image"-->
+<!--            android:tint="#000"-->
+<!--            android:src="@drawable/ic_dashboard"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Home"
+            android:id="@+id/dashboard_text"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="0dp"
+        android:id="@+id/my_order"
+        android:background="@drawable/meso1"
+        android:orientation="horizontal">
+<!--        <ImageView-->
+<!--            android:layout_width="60dp"-->
+<!--            android:tint="#000"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@drawable/order"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="My Orders"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/my_prescribtion"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/meso1"
+        android:orientation="horizontal">
+<!--        <ImageView-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:tint="#000"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@drawable/checkup"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Share Your Requirements"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/contact_hume"
+        android:visibility="visible"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/meso1"
+        android:orientation="horizontal">
+        <!--        <ImageView-->
+        <!--            android:layout_width="60dp"-->
+        <!--            android:layout_height="30dp"-->
+        <!--            android:tint="#000"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:src="@drawable/sale"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Contact Us"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/my_profile"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/meso1"
+        android:orientation="horizontal">
+<!--        <ImageView-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:tint="#000"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@drawable/user"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="My Profile"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/share_app"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/meso1"
+        android:orientation="horizontal">
+        <!--        <ImageView-->
+        <!--            android:layout_width="60dp"-->
+        <!--            android:layout_height="30dp"-->
+        <!--            android:tint="#000"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:src="@drawable/user"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Share With Friends"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/my_logout"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/meso1"
+        android:orientation="horizontal">
+<!--        <ImageView-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:tint="#000"-->
+<!--            android:src="@drawable/logout"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Logout"
+
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="invisible"
+        android:id="@+id/my_feedback"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/meso1"
+        android:orientation="horizontal">
+        <!--        <ImageView-->
+        <!--            android:layout_width="60dp"-->
+        <!--            android:layout_height="30dp"-->
+        <!--            android:tint="#000"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:src="@drawable/letter"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Feedback"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/my_offer"
+        android:visibility="invisible"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/meso1"
+        android:orientation="horizontal">
+        <!--        <ImageView-->
+        <!--            android:layout_width="60dp"-->
+        <!--            android:layout_height="30dp"-->
+        <!--            android:tint="#000"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:src="@drawable/sale"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Offers"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beta Version 1.0.0 \n Powered By Accountant Lalaji"
+        android:layout_alignParentBottom="true"
+        android:textColor="#F4F2F2"
+        android:id="@+id/menu_version"
+        android:background="#423F3F"
+        android:layout_marginTop="0dp"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginBottom="0dp"
+        />
+</RelativeLayout>
